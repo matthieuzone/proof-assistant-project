@@ -26,6 +26,7 @@ rule token = parse
   | "⇒"      { IMP }
   | "/\\"    { AND }
   | "∧"      { AND }
+  | "^"      { AND }
   | "\\/"    { OR }
   | "∨"      { OR }
   | "("      { LPAR }

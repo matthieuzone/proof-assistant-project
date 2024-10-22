@@ -47,15 +47,15 @@ you have words in _italic_ or in **bold**.
 
 # Difficulties encountered
 
-Detail
+case(t), modify parser (parenthesis)
 
 # Implementation choices
 
-Detail
+pretty types
 
 # Possible extensions
 
-Imagine
+matching syntax
 
 # Conclusion
 
