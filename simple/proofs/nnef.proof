@@ -1,0 +1,5 @@
+not (not _) => _
+intro f1
+elim f1
+intro x
+exact x

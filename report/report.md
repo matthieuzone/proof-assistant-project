@@ -47,15 +47,19 @@ you have words in _italic_ or in **bold**.
 
 # Difficulties encountered
 
-case(t), modify parser (parenthesis)
+case(t)
+modify parser (parenthesis)
+pred
 
 # Implementation choices
 
 pretty types
+tout en intro ou elim sauf si 2 arguments
 
 # Possible extensions
 
 matching syntax
+eliminate or, même variable name. si on veut une implication faut un type
 
 # Conclusion
 

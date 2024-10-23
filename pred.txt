@@ -1,0 +1,4 @@
+(λn:Nat.(λm:Nat.
+    λsuc:(Nat ⇒ Nat).
+        rec(m, n, (λk:Nat.suc))) 
+    λk:Nat.S(k))

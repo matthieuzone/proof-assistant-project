@@ -1,0 +1,12 @@
+Nat => Nat => Nat
+intro n
+intro m
+cut Nat => Nat
+intro suc
+elim m
+exact n
+intro k
+exact suc
+intro k
+intro S
+exact k

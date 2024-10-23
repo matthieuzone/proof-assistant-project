@@ -1,0 +1,21 @@
+Nat => Nat
+intro n
+cut (Nat ^Nat) => (Nat^Nat)
+intro p
+cut Nat^Nat
+intro z
+cut Nat ^ Nat
+intro finalp
+fst finalp
+elim n
+exact z
+intro r
+exact p
+intro
+intro 0
+intro 0
+intro in
+intro
+snd in
+intro succ
+snd in

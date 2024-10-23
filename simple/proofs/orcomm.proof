@@ -1,0 +1,7 @@
+A \/ B => B \/ A
+intro p
+elim p
+intro right
+exact x
+intro left
+exact x

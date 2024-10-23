@@ -12,6 +12,7 @@ type ty =
   | True
   | TCoproduct of ty * ty
   | False
+  | Nat
 
 (** Terms. *)
 type tm =
@@ -27,3 +28,6 @@ type tm =
   | Inr of ty * tm
   | Curryabs of var * tm
   | Empty of tm * ty
+  | Zero
+  | Succ of tm
+  | Rec of tm * tm * tm

@@ -1,0 +1,4 @@
+A => A \/ B
+intro x
+intro left
+exact x

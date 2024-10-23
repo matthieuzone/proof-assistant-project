@@ -17,3 +17,10 @@ type expr =
   | J of expr * expr * expr * expr * expr
 
 (* Fill me in! *)
+let to_string = function
+  | Type -> "Type"
+  | Var x -> x
+  | App (e1, e2) -> "(" ^ to_string e1 ^ " " ^ to_string e2 ^ ")"
+  | Abs (x, ty, e) -> "(λ" ^ x ^ ":" ^ to_string ty ^ "." ^ to_string e ^ ")"
+  | Pi (x, ty, e) -> "(Π" ^ x ^ ":" ^ to_string ty ^ "." ^ to_string e ^ ")"
+  | _ -> "Not implemented"
