@@ -50,6 +50,15 @@ you have words in _italic_ or in **bold**.
 case(t)
 modify parser (parenthesis)
 pred
+infer type of Ind
+normalize when not in order
+discover bugs when using it
+
+I think my J (elimination) is false (lets too many things be typechecked)
+
+doing things before lesson, hard because not understanding, after : hard becaus used to agda and not this
+
+errors in renaming free variables detected late ( reated a stack overflow in the zadd proof)
 
 # Implementation choices
 
